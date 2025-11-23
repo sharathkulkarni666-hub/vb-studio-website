@@ -1,0 +1,69 @@
+.title{
+    background-color: blue;
+}
+body {
+text-align: center;
+}
+nav {
+background:rgb(128, 90, 0);
+padding: 10px;
+text-align: center;
+}
+nav a {
+color: white;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+}
+nav a:hover {
+color: #ffcc00;
+}
+.section {
+padding: 40px 20px;
+max-width: 900px;
+margin: auto;
+}
+.services {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+}
+.card {
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+background-size: cover;
+background-position: center;
+color: #fff;
+min-height: 220px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+.card h3, .card p {
+background: rgba(0,0,0,0.5);
+padding: 10px;
+border-radius: 8px;
+}
+.card.ns-hair {
+background-image: url('https://images.pexels.com/photos/3992870/pexels-photo-3992870.jpeg');
+}
+.card.hair-patch {
+background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg');
+background-size: cover;
+background-position: center;
+}
+.card.hair-fix {
+background-image: url('https://images.pexels.com/photos/897262/pexels-photo-897262.jpeg');
+}
+.card.hair-style {
+background-image: url('https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg');
+}
+footer {
+background: #111;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 30px;
+}
